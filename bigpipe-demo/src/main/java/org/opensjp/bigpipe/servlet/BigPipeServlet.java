@@ -21,7 +21,7 @@ import org.opensjp.bigpipe.utils.Renderer;
  * bigPipe 时facebook的一个高新能页面加载算法，将页面分为不同的pagelet,用户发出请求后，服务端会并行的处理这些pagelet.
  * 即服务端并行的执行每个pagelet的业务，并渲染页面，一旦渲染完成就直接返回给前段
  * @author John Zheng
- *
+ * 测试
  */
 public class BigPipeServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
